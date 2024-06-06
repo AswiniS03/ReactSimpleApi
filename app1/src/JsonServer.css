@@ -1,0 +1,124 @@
+/* JsonServer.css */
+body 
+{
+    background-color: #19191a;
+}
+.container {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #7a6d6d;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #333;
+}
+
+form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+    padding: 10px;
+    font-size: 16px;
+    margin:10px;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #19191a;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #050505;
+}
+
+.table {
+    margin-top: 30px;
+    border-collapse: separate;
+    border-spacing: 0 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    background-color:  #19191a;
+    color: white;
+    border: none;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.table tbody tr {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.table tbody tr:hover {
+    transform: scale(1.02);
+}
+
+.table tbody tr td {
+    padding: 15px;
+    text-align: center;
+    border-top: 1px solid #e9ecef;
+    font-size: 16px;
+}
+
+.table tbody tr td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.table tbody tr td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.table button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.table button.btn-warning {
+    background-color: #ffc107;
+    border: none;
+    color: white;
+}
+
+.table button.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.table button.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    margin-left: 5px;
+}
+
+.table button.btn-danger:hover {
+    background-color: #c82333;
+}
